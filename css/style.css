@@ -2,7 +2,7 @@
 
 body {
   background-color: #fff;
-  background: url("../images/travelworthy-backdrop.jpg") no-repeat center center fixed;
+  background: url("../images/background-dog.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,7 +11,7 @@ body {
   font-family: 'Open Sans', sans-serif;}
 
 h1 {
-  background: #1e1b1e url("../images/travelworthy-logo.gif") no-repeat;
+  background: #1e1b1e url("../images/dog02.jpg") no-repeat;
   width: 230px;
   height: 180px;
   float: left;
@@ -48,7 +48,7 @@ p + h2 {
 #info {
   background-color: #1e1b1e;
   color: #fff;
-  width: 200px;
+  width: 120px;
   padding: 0 15px;
   text-align: center;
   min-height: 100%;
@@ -125,3 +125,9 @@ p + h2 {
 
 .data {
   padding: 10px;}
+
+  hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
